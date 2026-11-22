@@ -1,0 +1,1068 @@
+{
+  "schemaVersion": 1,
+  "set": 18,
+  "patch": "16.23",
+  "generatedAt": "2026-11-20T16:32:38.582Z",
+  "source": {
+    "api": "tft-match-v1",
+    "platform": "euw1",
+    "matches": 177,
+    "boards": 708
+  },
+  "comps": [
+    {
+      "id": "riftbeast-brambleback",
+      "name": "Riftbeast Brambleback",
+      "tier": "S",
+      "playstyle": "Fast 8",
+      "carry": "DA_Brambleback18",
+      "tank": "DA_Krug18",
+      "core_items": [
+        {
+          "unit": "DA_Brambleback18",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_GuinsoosRageblade",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_NeedlesslyLargeRod"]
+            },
+            {
+              "item": "TFT_Item_GuardianAngel",
+              "components": ["TFT_Item_BFSword", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_Quicksilver",
+              "components": ["TFT_Item_NegatronCloak", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_Krug18",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_Redemption",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_ElderDragon",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_LastWhisper",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_InfinityEdge",
+              "components": ["TFT_Item_BFSword", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_Deathblade",
+              "components": ["TFT_Item_BFSword", "TFT_Item_BFSword"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_Sentinel18",
+          "role": "utility",
+          "items": [
+            {
+              "item": "TFT_Item_FrozenHeart",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_SpectralGauntlet",
+              "components": ["TFT_Item_NegatronCloak", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_Redemption",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_Murkwolf18", "DA_18_Sentry", "DA_Scuttlecrab18", "DA_18_Rakan", "DA_Gromp18_AP", "DA_Cinderling18"],
+          "frontline": ["DA_Murkwolf18", "DA_Scuttlecrab18", "DA_18_Rakan"],
+          "item_holder": {
+            "unit": "DA_Murkwolf18",
+            "items": ["TFT_Item_GuinsoosRageblade", "TFT_Item_GuardianAngel", "TFT_Item_Quicksilver"],
+            "note": "Murkwolf shares Riftbeast + Ravager with Brambleback and is built AD by top players — keep it as the holder until Brambleback."
+          },
+          "tip": "Open Murkwolf + Scuttlecrab + Pebbles and slam Guinsoo’s or Edge of Night on Murkwolf — a strong early board saves HP for the Fast 8."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Diana", "DA_Murkwolf18", "DA_Krug18", "DA_18_Sentry", "DA_Scuttlecrab18", "DA_18_Rakan", "DA_CrimsonRaptor18"],
+          "frontline": ["DA_18_Diana", "DA_Murkwolf18", "DA_Krug18", "DA_Scuttlecrab18", "DA_18_Rakan"],
+          "tip": "Krug is your frontline: first tank item goes on him. Hold every Brambleback and Sentinel copy you see once 4-costs appear.",
+          "rolldown": "Don’t roll at 6–7. Level to 8 at 4-1 and roll at 4-2 for Brambleback 2★ and Sentinel.",
+          "econ": "Reach 50 gold by 3-2 and stay there; only interest and streak gold go into XP."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_Brambleback18", "DA_Murkwolf18", "DA_Sentinel18", "DA_Krug18", "DA_18_ElderDragon", "DA_18_Sentry", "DA_Taric18", "DA_Scuttlecrab18"],
+          "frontline": ["DA_Brambleback18", "DA_Murkwolf18", "DA_Sentinel18", "DA_Krug18", "DA_18_ElderDragon", "DA_Taric18", "DA_Scuttlecrab18"],
+          "item_transfers": [
+            {
+              "from": "DA_Murkwolf18",
+              "to": "DA_Brambleback18",
+              "items": ["TFT_Item_GuinsoosRageblade", "TFT_Item_GuardianAngel", "TFT_Item_Quicksilver"]
+            }
+          ],
+          "synergies": [
+            {
+              "trait": "DA_Riftbeast18",
+              "count": 7
+            },
+            {
+              "trait": "DA_18_Slayer",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Invoker",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Vanguard",
+              "count": 2
+            }
+          ],
+          "tip": "Krug and Sentinel in front, Brambleback one hex behind on your strong side so it dives after the tanks. Sell Murkwolf to free the items, then rebuy a Murkwolf to keep Riftbeast 7."
+        }
+      }
+    },
+    {
+      "id": "blossom-ahri",
+      "name": "Blossom Ahri",
+      "tier": "S",
+      "playstyle": "Fast 8",
+      "carry": "DA_18_Ahri",
+      "tank": "DA_18_Sett",
+      "core_items": [
+        {
+          "unit": "DA_18_Ahri",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_JeweledGauntlet",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_PowerGauntlet",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Sett",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_Redemption",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Zyra",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_StatikkShiv",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_Morellonomicon",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Lillia",
+          "role": "utility",
+          "items": [
+            {
+              "item": "TFT_Item_FrozenHeart",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_Redemption",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_Karma18", "DA_18_Yorick", "DA_18_Rakan", "DA_18_Shen", "DA_18_Yunara", "DA_18_Ornn"],
+          "frontline": ["DA_18_Yorick", "DA_18_Rakan", "DA_18_Shen", "DA_18_Ornn"],
+          "item_holder": {
+            "unit": "DA_Karma18",
+            "items": ["TFT_Item_JeweledGauntlet", "TFT_Item_SpearOfShojin", "TFT_Item_PowerGauntlet"],
+            "note": "Karma shares Blossom + Spellweaver with Ahri and scales on the same AP items."
+          },
+          "tip": "Karma + Yorick + Yunara give Blossom 3 immediately. Slam Jeweled Gauntlet or Shojin on Karma — Rod and Tear are your priority components."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Cassiopeia", "DA_Fiddlesticks18", "DA_18_Yorick", "DA_18_Rakan", "DA_Karma18", "DA_18_Shen", "DA_18_MasterYi_AD"],
+          "frontline": ["DA_Fiddlesticks18", "DA_18_Yorick", "DA_18_Rakan", "DA_18_Shen", "DA_18_MasterYi_AD"],
+          "item_holder": {
+            "unit": "DA_18_Cassiopeia",
+            "items": ["TFT_Item_JeweledGauntlet", "TFT_Item_SpearOfShojin", "TFT_Item_PowerGauntlet"],
+            "note": "Cassiopeia keeps the Spellweaver link and is an AP caster — move the items to her once she is 2★."
+          },
+          "tip": "Move the AP items to Cassiopeia at 2★. Sett and Fiddlesticks hold the front; hold Ahri pairs on the bench.",
+          "rolldown": "Level on 3-2 and 4-1, then roll at 4-2 on Lvl 8 for Ahri 2★ and Sett.",
+          "econ": "Bank to 50 gold by 3-2; don’t roll at 6–7 unless you drop below 50 HP."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_18_Ahri", "DA_18_Sett", "DA_18_Yorick", "DA_Fiddlesticks18", "DA_18_Zyra", "DA_18_Lillia", "DA_18_Rakan", "DA_Taric18", "DA_Lux18_Base"],
+          "frontline": ["DA_18_Sett", "DA_18_Yorick", "DA_Fiddlesticks18", "DA_18_Lillia", "DA_18_Rakan", "DA_Taric18"],
+          "item_transfers": [
+            {
+              "from": "DA_18_Cassiopeia",
+              "to": "DA_18_Ahri",
+              "items": ["TFT_Item_JeweledGauntlet", "TFT_Item_SpearOfShojin", "TFT_Item_PowerGauntlet"]
+            }
+          ],
+          "synergies": [
+            {
+              "trait": "DA_18_Blossom",
+              "count": 3
+            },
+            {
+              "trait": "DA_18_Spellweaver",
+              "count": 2
+            },
+            {
+              "trait": "DA_Juggernaut18",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Defender",
+              "count": 2
+            }
+          ],
+          "tip": "Ahri in the back corner opposite the strongest enemy carry; Sett and Lillia front. Sell Cassiopeia to move the items onto Ahri; Zyra is the second damage source."
+        }
+      }
+    },
+    {
+      "id": "elderwood-ezreal",
+      "name": "Elderwood Ezreal",
+      "tier": "A",
+      "playstyle": "Fast 8",
+      "carry": "DA_18_Ezreal",
+      "tank": "DA_18_Hecarim",
+      "core_items": [
+        {
+          "unit": "DA_18_Ezreal",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_LastWhisper",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_InfinityEdge",
+              "components": ["TFT_Item_BFSword", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Hecarim",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_Crownguard",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_RedBuff",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Ivern",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_AdaptiveHelm",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_GuinsoosRageblade",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_NeedlesslyLargeRod"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Lillia",
+          "role": "utility",
+          "items": [
+            {
+              "item": "TFT_Item_FrozenHeart",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_18_Xayah", "DA_18_Ornn", "DA_18_Alistar", "DA_18_Rakan", "DA_18_Shen", "DA_18_LeBlanc"],
+          "frontline": ["DA_18_Ornn", "DA_18_Alistar", "DA_18_Rakan", "DA_18_Shen"],
+          "item_holder": {
+            "unit": "DA_18_Xayah",
+            "items": ["TFT_Item_SpearOfShojin", "TFT_Item_LastWhisper", "TFT_Item_InfinityEdge"],
+            "note": "Xayah shares Elderwood with Ezreal and uses the same AD crit items."
+          },
+          "tip": "Xayah + Ornn + Alistar open Elderwood 3. Slam Infinity Edge, Last Whisper or Shojin on Xayah — prioritise Sword, Bow and Gloves."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Azir", "DA_18_Alistar", "DA_18_Hecarim", "DA_18_Ornn", "DA_18_Xayah", "DA_18_Rakan", "DA_18_Shen"],
+          "frontline": ["DA_18_Alistar", "DA_18_Hecarim", "DA_18_Ornn", "DA_18_Rakan", "DA_18_Shen"],
+          "tip": "Keep the items on Xayah until Ezreal is 2★. Hecarim is the main tank: Gargoyle or Sunfire on him first.",
+          "rolldown": "Level to 8 at 4-1 and roll at 4-2 for Ezreal 2★ and Hecarim 2★.",
+          "econ": "Hit 50 gold by 3-2. Win-streak if your opener is strong, otherwise preserve HP and econ."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_18_Ezreal", "DA_18_Alistar", "DA_18_Hecarim", "DA_18_Ornn", "DA_18_Kennen", "DA_Taric18", "DA_18_Xayah", "DA_18_Ivern", "DA_18_Lillia"],
+          "frontline": ["DA_18_Alistar", "DA_18_Hecarim", "DA_18_Ornn", "DA_18_Kennen", "DA_Taric18", "DA_18_Lillia"],
+          "item_transfers": [
+            {
+              "from": "DA_18_Xayah",
+              "to": "DA_18_Ezreal",
+              "items": ["TFT_Item_SpearOfShojin", "TFT_Item_LastWhisper", "TFT_Item_InfinityEdge"]
+            }
+          ],
+          "synergies": [
+            {
+              "trait": "DA_18_Elderwood",
+              "count": 5
+            },
+            {
+              "trait": "DA_18_Executioner",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Vanguard",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Defender",
+              "count": 2
+            }
+          ],
+          "tip": "Ezreal in a back corner, Hecarim and Lillia front. Sell Xayah to move the items to Ezreal, then rebuy Xayah to keep Elderwood 5."
+        }
+      }
+    },
+    {
+      "id": "blossom-karma",
+      "name": "Blossom Karma",
+      "tier": "A",
+      "playstyle": "Lvl 5 Reroll",
+      "carry": "DA_Karma18",
+      "tank": "DA_18_Sejuani",
+      "core_items": [
+        {
+          "unit": "DA_Karma18",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_JeweledGauntlet",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_BlueBuff",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_RabadonsDeathcap",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NeedlesslyLargeRod"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Sejuani",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_Redemption",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Yunara",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_LastWhisper",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_Deathblade",
+              "components": ["TFT_Item_BFSword", "TFT_Item_BFSword"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Yorick",
+          "role": "utility",
+          "items": [
+            {
+              "item": "TFT_Item_RedBuff",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_Karma18", "DA_18_Yorick", "DA_18_Sejuani", "DA_18_Yunara", "DA_18_Leona", "DA_18_Kayle"],
+          "frontline": ["DA_18_Yorick", "DA_18_Sejuani", "DA_18_Leona"],
+          "item_holder": {
+            "unit": "DA_Karma18",
+            "items": ["TFT_Item_JeweledGauntlet", "TFT_Item_BlueBuff", "TFT_Item_RabadonsDeathcap"],
+            "note": "Karma carries from the start — items stay on Karma."
+          },
+          "tip": "Buy every Karma and Yorick — Karma holds the AP items (Jeweled Gauntlet, Blue Buff) from the start. A loss streak is fine; you roll soon."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_Karma18", "DA_18_Leona", "DA_18_Yorick", "DA_18_Sejuani", "DA_18_Yunara", "DA_18_Kayle", "DA_18_LeBlanc"],
+          "frontline": ["DA_18_Leona", "DA_18_Yorick", "DA_18_Sejuani"],
+          "tip": "Stay on Lvl 5 and slow roll until Karma is 3★, then finish Yorick and Sejuani.",
+          "rolldown": "Start at 3-1 on Lvl 5 (1-costs are 45% of the shop). Keep 50 gold and roll only the surplus each round; roll deeper below 40 HP.",
+          "econ": "Never roll below 50 gold while you’re healthy — the interest funds the reroll."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_Karma18", "DA_18_Leona", "DA_18_Yorick", "DA_18_Sejuani", "DA_18_Yunara", "DA_18_Kayle", "DA_18_LeBlanc", "DA_18_Azir"],
+          "frontline": ["DA_18_Leona", "DA_18_Yorick", "DA_18_Sejuani"],
+          "item_transfers": [],
+          "synergies": [
+            {
+              "trait": "DA_18_Blossom",
+              "count": 3
+            },
+            {
+              "trait": "DA_18_Solar",
+              "count": 3
+            },
+            {
+              "trait": "DA_Juggernaut18",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Spellweaver",
+              "count": 2
+            }
+          ],
+          "tip": "With Karma 3★, level to 7–8 and add Kayle and Azir for damage. Karma centre-back behind Sejuani and Yorick."
+        }
+      }
+    },
+    {
+      "id": "elderwood-soraka",
+      "name": "Elderwood Soraka",
+      "tier": "A",
+      "playstyle": "Fast 8",
+      "carry": "DA_18_Soraka",
+      "tank": "DA_18_Hecarim",
+      "core_items": [
+        {
+          "unit": "DA_18_Soraka",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_RabadonsDeathcap",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NeedlesslyLargeRod"]
+            },
+            {
+              "item": "TFT_Item_BlueBuff",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Hecarim",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_RedBuff",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Ezreal",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_Deathblade",
+              "components": ["TFT_Item_BFSword", "TFT_Item_BFSword"]
+            },
+            {
+              "item": "TFT_Item_LastWhisper",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_Fiddlesticks18",
+          "role": "utility",
+          "items": [
+            {
+              "item": "TFT_Item_RedBuff",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_Redemption",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_18_LeBlanc", "DA_18_Ornn", "DA_18_Alistar", "DA_18_Shen", "DA_18_Yunara", "DA_18_Xayah"],
+          "frontline": ["DA_18_Ornn", "DA_18_Alistar", "DA_18_Shen"],
+          "item_holder": {
+            "unit": "DA_18_LeBlanc",
+            "items": ["TFT_Item_RabadonsDeathcap", "TFT_Item_BlueBuff", "TFT_Item_SpearOfShojin"],
+            "note": "LeBlanc is an AP caster on the Elderwood board — she holds Soraka’s items early."
+          },
+          "tip": "Ornn + Alistar + LeBlanc open Elderwood 3; LeBlanc holds the AP items (Rabadon’s, Blue Buff, Shojin)."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Azir", "DA_18_Ornn", "DA_18_Hecarim", "DA_Fiddlesticks18", "DA_18_Alistar", "DA_18_LeBlanc", "DA_18_Shen"],
+          "frontline": ["DA_18_Ornn", "DA_18_Hecarim", "DA_Fiddlesticks18", "DA_18_Alistar", "DA_18_Shen"],
+          "item_holder": {
+            "unit": "DA_18_Azir",
+            "items": ["TFT_Item_RabadonsDeathcap", "TFT_Item_BlueBuff", "TFT_Item_SpearOfShojin"],
+            "note": "Azir shares Executioner with Soraka and is itemized AP-leaning — move items to him at 3-cost."
+          },
+          "tip": "Move the items to Azir once he is 2★. Hecarim and Fiddlesticks hold the front line.",
+          "rolldown": "Level to 8 at 4-1 and roll at 4-2 for Soraka 2★.",
+          "econ": "Hold 50 gold from 3-2; push levels with excess, don’t roll at 6–7."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_18_Soraka", "DA_18_Ornn", "DA_18_Hecarim", "DA_Fiddlesticks18", "DA_18_Ezreal", "DA_18_Alistar", "DA_18_Kennen", "DA_18_LeBlanc", "DA_Taric18"],
+          "frontline": ["DA_18_Ornn", "DA_18_Hecarim", "DA_Fiddlesticks18", "DA_18_Alistar", "DA_18_Kennen", "DA_Taric18"],
+          "item_transfers": [
+            {
+              "from": "DA_18_Azir",
+              "to": "DA_18_Soraka",
+              "items": ["TFT_Item_RabadonsDeathcap", "TFT_Item_BlueBuff", "TFT_Item_SpearOfShojin"]
+            }
+          ],
+          "synergies": [
+            {
+              "trait": "DA_18_Defender",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Elderwood",
+              "count": 5
+            },
+            {
+              "trait": "DA_18_Executioner",
+              "count": 3
+            },
+            {
+              "trait": "DA_FloraFatalis18",
+              "count": 2
+            }
+          ],
+          "tip": "Soraka backline behind Fiddlesticks, Ezreal on the opposite side as second carry. Sell Azir to move the items onto Soraka."
+        }
+      }
+    },
+    {
+      "id": "hunter-sivir",
+      "name": "Hunter Sivir",
+      "tier": "B",
+      "playstyle": "Fast 8",
+      "carry": "DA_18_Sivir",
+      "tank": "DA_18_Lillia",
+      "core_items": [
+        {
+          "unit": "DA_18_Sivir",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_InfinityEdge",
+              "components": ["TFT_Item_BFSword", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_Deathblade",
+              "components": ["TFT_Item_BFSword", "TFT_Item_BFSword"]
+            },
+            {
+              "item": "TFT_Item_BlueBuff",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_TearOfTheGoddess"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Lillia",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_FrozenHeart",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_Crownguard",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_NightHarvester",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_Nidalee18_AP",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_SteraksGage",
+              "components": ["TFT_Item_BFSword", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_GuardianAngel",
+              "components": ["TFT_Item_BFSword", "TFT_Item_ChainVest"]
+            },
+            {
+              "item": "TFT_Item_UnstableConcoction",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_SparringGloves"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_18_Caitlyn", "DA_18_Rakan", "DA_18_Shen", "DA_Cinderling18", "DA_Scuttlecrab18", "DA_18_Yorick"],
+          "frontline": ["DA_18_Rakan", "DA_18_Shen", "DA_Scuttlecrab18", "DA_18_Yorick"],
+          "item_holder": {
+            "unit": "DA_18_Caitlyn",
+            "items": ["TFT_Item_InfinityEdge", "TFT_Item_Deathblade", "TFT_Item_BlueBuff"],
+            "note": "Caitlyn shares Hunter with Sivir and is built AD (Guinsoo’s, Gunblade)."
+          },
+          "tip": "Caitlyn holds Sivir’s AD items (Infinity Edge, Deathblade); Rakan, Shen and Yorick tank."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Tristana", "DA_18_Rakan", "DA_18_Shen", "DA_KogMaw18_AD", "DA_Vi18", "DA_Cinderling18", "DA_Scuttlecrab18"],
+          "frontline": ["DA_18_Rakan", "DA_18_Shen", "DA_Vi18", "DA_Scuttlecrab18"],
+          "item_holder": {
+            "unit": "DA_18_Tristana",
+            "items": ["TFT_Item_InfinityEdge", "TFT_Item_Deathblade", "TFT_Item_BlueBuff"],
+            "note": "Tristana shares Hunter and is an AD attack-speed carry — upgrade the holder at 3-cost."
+          },
+          "tip": "Upgrade the holder to Tristana at 3-cost (Hunter link). Vi and Shen hold the front.",
+          "rolldown": "Level to 8 at 4-1 and roll at 4-2 for Sivir 2★ and Lillia.",
+          "econ": "50 gold by 3-2; keep a Sivir pair on the bench before the roll."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_18_Sivir", "DA_Nidalee18_AP", "DA_18_Lillia", "DA_18_Rakan", "DA_Sentinel18", "DA_18_Shen", "DA_Amumu18", "DA_KogMaw18_AD", "DA_18_Ashe"],
+          "frontline": ["DA_Nidalee18_AP", "DA_18_Lillia", "DA_18_Rakan", "DA_Sentinel18", "DA_18_Shen", "DA_Amumu18"],
+          "item_transfers": [
+            {
+              "from": "DA_18_Tristana",
+              "to": "DA_18_Sivir",
+              "items": ["TFT_Item_InfinityEdge", "TFT_Item_Deathblade", "TFT_Item_BlueBuff"]
+            }
+          ],
+          "synergies": [
+            {
+              "trait": "DA_18_Hunter",
+              "count": 2
+            },
+            {
+              "trait": "DA_Primal18",
+              "count": 2
+            },
+            {
+              "trait": "DA_Juggernaut18",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Defender",
+              "count": 2
+            }
+          ],
+          "tip": "Sivir in a back corner, Nidalee on the flank as second carry; Lillia and Amumu front. Sell Tristana to move the items onto Sivir."
+        }
+      }
+    },
+    {
+      "id": "blossom-yunara",
+      "name": "Blossom Yunara",
+      "tier": "B",
+      "playstyle": "Lvl 6 Reroll",
+      "carry": "DA_18_Yunara",
+      "tank": "DA_18_Sejuani",
+      "core_items": [
+        {
+          "unit": "DA_18_Yunara",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_Deathblade",
+              "components": ["TFT_Item_BFSword", "TFT_Item_BFSword"]
+            },
+            {
+              "item": "TFT_Item_LastWhisper",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Sejuani",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_BrambleVest",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_ChainVest"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_Karma18",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_BlueBuff",
+              "components": ["TFT_Item_TearOfTheGoddess", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_RabadonsDeathcap",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NeedlesslyLargeRod"]
+            },
+            {
+              "item": "TFT_Item_JeweledGauntlet",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Yorick",
+          "role": "utility",
+          "items": [
+            {
+              "item": "TFT_Item_IonicSpark",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_SpectralGauntlet",
+              "components": ["TFT_Item_NegatronCloak", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_RedBuff",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_GiantsBelt"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_18_Yunara", "DA_Karma18", "DA_18_Yorick", "DA_18_Sejuani", "DA_18_Leona", "DA_18_Kayle"],
+          "frontline": ["DA_18_Yorick", "DA_18_Sejuani", "DA_18_Leona"],
+          "item_holder": {
+            "unit": "DA_18_Yunara",
+            "items": ["TFT_Item_SpearOfShojin", "TFT_Item_Deathblade", "TFT_Item_LastWhisper"],
+            "note": "Yunara carries from the start — items stay on Yunara."
+          },
+          "tip": "Collect Yunara, Karma and Yorick copies; Yunara holds Shojin, Deathblade and Last Whisper from the start."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Yunara", "DA_Karma18", "DA_18_Yorick", "DA_18_Sejuani", "DA_18_LeBlanc", "DA_18_Leona", "DA_18_Kayle"],
+          "frontline": ["DA_18_Yorick", "DA_18_Sejuani", "DA_18_Leona"],
+          "tip": "Hit Lvl 6 at 3-1 and slow roll until Yunara is 3★, then Sejuani.",
+          "rolldown": "Slow roll at Lvl 6 (2-costs are 40% of the shop), keeping 50 gold and rolling only the surplus.",
+          "econ": "Stay above 50 gold while healthy; roll down fully only below 40 HP."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_18_Yunara", "DA_Karma18", "DA_18_Yorick", "DA_18_Sejuani", "DA_18_LeBlanc", "DA_18_Leona", "DA_18_Kayle", "DA_18_Azir"],
+          "frontline": ["DA_18_Yorick", "DA_18_Sejuani", "DA_18_Leona"],
+          "item_transfers": [],
+          "synergies": [
+            {
+              "trait": "DA_18_Blossom",
+              "count": 3
+            },
+            {
+              "trait": "DA_18_Executioner",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Solar",
+              "count": 3
+            },
+            {
+              "trait": "DA_18_Spellweaver",
+              "count": 2
+            }
+          ],
+          "tip": "After Yunara 3★, push levels and add Azir and LeBlanc. Yunara backline behind Sejuani and Yorick."
+        }
+      }
+    },
+    {
+      "id": "invoker-teemo",
+      "name": "Invoker Teemo",
+      "tier": "B",
+      "playstyle": "Lvl 6 Reroll",
+      "carry": "DA_18_Teemo",
+      "tank": "DA_18_Alistar",
+      "core_items": [
+        {
+          "unit": "DA_18_Teemo",
+          "role": "carry",
+          "items": [
+            {
+              "item": "TFT_Item_JeweledGauntlet",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_SparringGloves"]
+            },
+            {
+              "item": "TFT_Item_SpearOfShojin",
+              "components": ["TFT_Item_BFSword", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_PowerGauntlet",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_SparringGloves"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Alistar",
+          "role": "tank",
+          "items": [
+            {
+              "item": "TFT_Item_GargoyleStoneplate",
+              "components": ["TFT_Item_ChainVest", "TFT_Item_NegatronCloak"]
+            },
+            {
+              "item": "TFT_Item_WarmogsArmor",
+              "components": ["TFT_Item_GiantsBelt", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_Crownguard",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_ChainVest"]
+            }
+          ]
+        },
+        {
+          "unit": "DA_18_Morgana",
+          "role": "secondary",
+          "items": [
+            {
+              "item": "TFT_Item_StatikkShiv",
+              "components": ["TFT_Item_RecurveBow", "TFT_Item_TearOfTheGoddess"]
+            },
+            {
+              "item": "TFT_Item_Morellonomicon",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_GiantsBelt"]
+            },
+            {
+              "item": "TFT_Item_RabadonsDeathcap",
+              "components": ["TFT_Item_NeedlesslyLargeRod", "TFT_Item_NeedlesslyLargeRod"]
+            }
+          ]
+        }
+      ],
+      "phases": {
+        "early": {
+          "levels": [3, 5],
+          "stage": "2",
+          "units": ["DA_18_Teemo", "DA_18_Veigar", "DA_18_Alistar", "DA_18_LeBlanc", "DA_18_Kobuko", "DA_18_Sentry"],
+          "frontline": ["DA_18_Alistar", "DA_18_Kobuko"],
+          "item_holder": {
+            "unit": "DA_18_Teemo",
+            "items": ["TFT_Item_JeweledGauntlet", "TFT_Item_SpearOfShojin", "TFT_Item_PowerGauntlet"],
+            "note": "Teemo carries from the start — items stay on Teemo."
+          },
+          "tip": "Teemo holds Jeweled Gauntlet, Shojin and Striker’s Flail from round one; Veigar and Pebbles add Invoker."
+        },
+        "mid": {
+          "levels": [6, 7],
+          "stage": "3",
+          "units": ["DA_18_Teemo", "DA_18_Alistar", "DA_18_LeBlanc", "DA_18_Kobuko", "DA_18_Veigar", "DA_18_Hecarim", "DA_18_Sentry"],
+          "frontline": ["DA_18_Alistar", "DA_18_Kobuko", "DA_18_Hecarim"],
+          "tip": "Hit Lvl 6 at 3-1 and slow roll until Teemo is 3★, then Alistar 3★.",
+          "rolldown": "Slow roll at Lvl 6 (2-costs are 40% of the shop) above 50 gold.",
+          "econ": "Stay above 50 gold while healthy; roll deeper only below 40 HP."
+        },
+        "late": {
+          "levels": [8, 10],
+          "stage": "4+",
+          "units": ["DA_18_Teemo", "DA_18_Alistar", "DA_18_LeBlanc", "DA_Sentinel18", "DA_18_Morgana", "DA_18_Kobuko", "DA_18_Veigar", "DA_18_Hecarim"],
+          "frontline": ["DA_18_Alistar", "DA_Sentinel18", "DA_18_Morgana", "DA_18_Kobuko", "DA_18_Hecarim"],
+          "item_transfers": [],
+          "synergies": [
+            {
+              "trait": "DA_18_Brawler",
+              "count": 2
+            },
+            {
+              "trait": "DA_18_Elderwood",
+              "count": 3
+            },
+            {
+              "trait": "DA_18_Invoker",
+              "count": 3
+            },
+            {
+              "trait": "DA_18_Spellweaver",
+              "count": 2
+            }
+          ],
+          "tip": "After Teemo 3★, level to 8 for Morgana and Sentinel. Teemo centre-back behind Alistar and Hecarim."
+        }
+      }
+    }
+  ],
+  "reviewed": "Item holders and tips manually refined after generation."
+}
